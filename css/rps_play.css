@@ -1,0 +1,86 @@
+#rps_container {
+    margin-top: 10px;
+    width: 100%;
+    padding: 20px;
+    background-color: white;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.full_width_inline
+{
+    width:100%;
+    display:inline-block;
+}
+
+.option_container
+{
+    display:inline-block;
+    width:32%;
+}
+
+.option_image
+{
+    width:100%;
+    box-sizing:border-box;
+    border-width:4px;
+    border-style: solid;
+    border-color: white;
+}
+
+.option_container:hover .option_image
+{
+    border-color:black;
+}
+
+#play_options_container
+{
+    margin-top:10px;
+}
+
+#play_results_container
+{
+    margin-top:10px;
+    min-height: 250px;
+}
+
+#result_image_container
+{
+    border:1px black solid;
+    width:200px;
+    height:200px;
+     display:block;
+    margin-left: auto;
+    margin-right:auto;
+}
+
+#question_mark_image
+{
+    width:100px;
+    display:block;
+    left:50%;
+    top:50%;
+    position:relative;
+    -ms-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+
+
+.result_image
+{
+   width:100px;
+    display:none;
+    left:50%;
+    top:50%;
+    position:relative;
+    -ms-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
